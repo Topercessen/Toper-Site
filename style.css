@@ -145,7 +145,6 @@ h1 {
     margin: 25px 0px 0px 0px;
 }
 
-<style>
 /* Force scrollbars onto browser windowa. 
 Doesn't work in Firefox */
 
@@ -155,14 +154,14 @@ Doesn't work in Firefox */
     height: 10px;
 }
 ::-webkit-scrollbar-track {
-    border-radius: var(--curve);
+    border-radius: 0px;
     border: 1px solid #E5E5E5;
+    background: #000000; 
 }
 ::-webkit-scrollbar-thumb {
     background: #E5E5E5; 
-    border-radius: var(--curve);
+    border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #E5E5E5;  
 }
-</style>
