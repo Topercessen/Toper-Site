@@ -1,32 +1,47 @@
 body {
-    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/05/Emo-grunge-wallpapers.jpg');
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Emo-grunge-wallpapers.jpg");
     background-attachment: fixed;
     background-size: contain;
-    font-family: 'Cutive Mono';
+    font-family: "Cutive Mono";
     color: white;
     line-height: 1.225;
 }
 
-/* this is the cursor that appears when you hover over links */
+/* This is the cursor that appears when you hover over links. */
 a:hover {
-    cursor: url('https://cur.cursors-4u.net/cursors/cur-7/cur608.cur'), auto;
+    cursor: url("https://cur.cursors-4u.net/cursors/cur-7/cur608.cur"), auto;
 }
 
-/* this is the main cursor */
+/* This is the main cursor. */
 * {
-    cursor: url('https://cur.cursors-4u.net/cursors/cur-7/cur610.cur'), auto;
+    cursor: url("https://cur.cursors-4u.net/cursors/cur-7/cur610.cur"), auto;
 }
 
-/* this is where the colors are rooted */
+/* This is where the colors are rooted. */
 
 :root {
     --background-color: rgba(0, 0, 0, 0.5);
-    --font: 'Cutive Mono';
-    --names: #BABABA;
-    --links: #BABABA;
+    --font: "Cutive Mono";
+    --names: #bababa;
+    --links: #bababa;
     --hover: #757575;
-    --borders: 3px Ridge #E5E5E5;
-    --shadow: 0px 0px 8px #FFFFFF;
+    --borders: 3px Ridge #e5e5e5;
+    --shadow: 0px 0px 8px #ffffff;
+}
+
+/* This is where links are colored. */
+
+a:link {
+    color: var(--links);
+}
+a:hover {
+    color: var(--hover);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--hover);
+    text-decoration: none;
 }
 
 Footer {
@@ -49,7 +64,7 @@ h1 {
 
 #Status {
     padding: 10px;
-  	margin: 0px 20px;
+    margin: 0px 20px;
     font-weight: bold;
     font-size: 14px;
 }
@@ -99,17 +114,17 @@ h1 {
 }
 
 .AboutMe {
-  	padding: 5px;
-  	margin: 13px 15px;
+    padding: 5px;
+    margin: 13px 15px;
     background: var(--background-color);
- 	border: var(--borders);
+    border: var(--borders);
     box-shadow: var(--shadow);
     font-family: var(font);
     text-align: center;
 }
 
 .Contact {
-  	padding: 5px;
+    padding: 5px;
     background: var(--background-color);
     border: var(--borders);
     box-shadow: var(--shadow);
@@ -117,8 +132,8 @@ h1 {
 
 .Header {
     margin: -20px 0px 0px 0px;
-  	text-align: center;
-  	font-size: 16px;
+    text-align: center;
+    font-size: 16px;
 }
 
 .Info {
@@ -128,4 +143,4 @@ h1 {
     box-shadow: var(--shadow);
     text-align: center;
     margin: 25px 0px 0px 0px;
-}  
+}
