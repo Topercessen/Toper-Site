@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/Emo-grunge-wallpapers.jpg");
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Emo-grunge-wallpapers.jpg");
     background-attachment: fixed;
     background-size: contain;
     font-family: "Cutive Mono";
@@ -20,7 +20,7 @@ a:hover {
 /* This is where the colors are rooted. */
 
 :root {
-    --background-color: rgba(0, 0, 0, 0.5);
+    --background-color: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 30%);
     --font: "Cutive Mono";
     --names: #bababa;
     --links: #bababa;
@@ -40,7 +40,7 @@ a:hover {
 }
 
 a:visited {
-    color: var(--links);
+    color: var(--hover);
     text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ Footer {
 
 h1 {
     padding: 5px;
-    background: var(--background-color);
+    background: rgba(0, 0, 0, 0.5);
     border: var(--borders);
     box-shadow: var(--shadow);
     font-family: var(font);
