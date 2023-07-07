@@ -33,6 +33,7 @@ a:hover {
 
 a:link {
     color: var(--links);
+    text-decoration: none;
 }
 a:hover {
     color: var(--hover);
@@ -40,7 +41,7 @@ a:hover {
 }
 
 a:visited {
-    color: var(--hover);
+    color: var(--links);
     text-decoration: none;
 }
 
