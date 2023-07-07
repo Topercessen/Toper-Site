@@ -144,3 +144,25 @@ h1 {
     text-align: center;
     margin: 25px 0px 0px 0px;
 }
+
+<style>
+/* Force scrollbars onto browser windowa. 
+Doesn't work in Firefox */
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    border-radius: var(--curve);
+    border: 1px solid #E5E5E5;
+}
+::-webkit-scrollbar-thumb {
+    background: #E5E5E5; 
+    border-radius: var(--curve);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #E5E5E5;  
+}
+</style>
